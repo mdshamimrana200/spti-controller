@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spti resistration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resistration-form">
+        <div class="container resistration-container">
+            <h2 class="header-title title">Sherpur Polytechnic Institute</h2>
+            <h4 class="header-sub-title title">Application for absence</h4>
+            <div class="full-name form-content">
+                <label for="first" class="frst-name sub-content">
+                    <input id="first" required type="text" class="input input-name">
+                    <span class="ipnut-title">First name</span>
+                </label>
+                <label for="last" class="Last-name sub-content">
+                    <input id="last" required type="text" class="input input-name">
+                    <span class="ipnut-title">Last name</span>
+                </label>
+            </div>
+
+            <div class="contact-information form-content">
+                <label for="email" class="email sub-content">
+                    <input id="email" required type="text" class="input input-email">
+                    <span class="ipnut-title">Email</span>
+                </label>
+                <label for="phon" class="Phone-number sub-content">
+                    <input id="phon" required type="text" class="input input-phoneNumber">
+                    <span class="ipnut-title">Phone Number</span>
+                </label>
+            </div>
+
+            <div class="catagory   form-content">
+                <div class="department sub-content">
+                    <select class="input input-select" name="" id="">
+                        <option class="input-option" value="">computer science and technology</option>
+                        <option class="input-option" value="">civil technology</option>
+                        <option class="input-option" value="">electronics technology</option>
+                        <option class="input-option" value="">electrical technology</option>
+                        <option class="input-option" value="">environmental technology</option>
+                    </select>
+                    <span class="ipnut-title">Department</span>
+                </div>
+                <div class="designation  sub-content">
+                    <select class="input input-select" name="" id="">
+                        <div class="style-option">
+                            <option class="input-option" value="">Vice Principal</option>
+                            <option class="input-option" value="">Academic Instructor</option>
+                            <option class="input-option" value="">Chif Instructor</option>
+                            <option class="input-option" value="">Instractor</option>
+                            <option class="input-option" value="">Junior Instructor</option>
+                            <option class="input-option" value="">Lab Incharge</option>
+                            <option class="input-option" value="">Workshop Sherpur</option>
+                            <option class="input-option" value="">Craft Incharge</option>
+                        </div>
+                    </select>
+                    <span class="ipnut-title">Designation</span>
+                </div>
+            </div>
+
+
+            <div class="comment sub-content">
+                <input class="reson-for-leave input" type="text" required>
+                <span class="ipnut-title">where leave will be spent</span>
+            </div>
+
+            <div class="typeofLeve">
+                <div class="content-title">
+                    Type of leave
+                </div>
+                <div class="form-content type-of-leave">
+                    <div class="leave-reason1">
+                        <div class="reson1">Vacation</div>
+                        <div class="reson1">Nationality</div>
+                        <div class="reson1">Sick</div>
+                    </div>
+                    <div class="leave-reason1">
+                        <div class="reson1">Rest</div>
+                        <div class="reson1">Medical</div>
+                        <div class="reson1">Other</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flexin">
+
+                <div class="holydays-calculate">
+                    <div class="content-title">
+                        Date of leave
+                    </div>
+                    <div class="calculate-box">
+                        <div class="cd-boxes">
+                            <span>From:</span>
+                            <input class='date-count fromDate'value="" type="date">
+                        </div>
+                        <div class="cd-boxes">
+                            <span>To :</span>
+                            <input class="date-count toDate" type="date">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="holydays-calculate">
+                    <div class="content-title">
+                        Holy days calculate
+                    </div>
+                    <div class="calculate-boxs">
+                        <div class="c-boxes">
+                            <span>Total</span>
+                            <input class='total'value="20" type="number">
+                        </div>
+                        <div class="c-boxes">
+                            <span>Taken</span>
+                            <input class="teken" type="number">
+                        </div>
+                        <div class="c-boxes">
+                            <span>Told</span>
+                            <input class="told" value="20" type="number">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+                <div class=" siqurity responsivle form-content">
+                    <label for="persion" class="persion sub-content">
+                        <input id="persion" required type="text" class="input input-persion">
+                    <span class="ipnut-title responsive">Responsible Person In Absence</span>
+                </label>
+                <label for="addres" class=" addres sub-content">
+                    <input id="addres" required type="text" class="input input-phoneNumber">
+                    <span class="ipnut-title responsive">Address While on leave</span>
+                </label>
+            </div>
+            <div class="no-print siqurity form-content">
+                <label for="pass" class="password sub-content">
+                    <input id="pass" required type="password" class="input input-email">
+                    <span class="ipnut-title">Password</span>
+                </label>
+                <label for="passc" class="confirm-password sub-content">
+                    <input id="passc" required type="password" class="input input-phoneNumber">
+                    <span class="ipnut-title">confirm password</span>
+                </label>
+            </div>
+
+            
+
+
+
+        </div>
+        
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

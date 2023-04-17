@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, arial;
+
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resistration-form{
+    max-width: 768px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    border-radius: .5rem;
+    padding: 4rem 2rem;
+    box-shadow: -5px 5px 20px -5px black;
+}
+.form-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+.content-title{
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+    width: 300px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+.input{
+    width: 100%;
+    border-radius: .4rem;
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+}
+.input:focus ~ .ipnut-title,.input:valid ~ .ipnut-title{
+    transform: translateY(-35px);
+    background-color: white;
+    color: rgb(21, 103, 255);
+    font-size: 1.2rem;
+}
+.sub-content:valid ~ .sub-content{
+    background-color: red;
+}
+select{
+    text-transform: capitalize;
+    position: relative;
+}
+.style-option{
+    background-color: rebeccapurple;
+    padding: 2rem;
+}
+.input-option{
+    font-size: 2rem;
+    text-transform: capitalize;
+    
+}
+.catagory{
+    margin-top: 10px;
+}
+
+.sub-content{
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 45%;
+    border-radius: .3rem;
+    margin-bottom: 20px;
+    border: 1px solid rgb(148, 148, 148);
+}
+
+.container{
+    width: 100%;
+}
+.ipnut-title{
+    padding: 0px 5px;
+    transition: .3s;
+    position: absolute;
+    font-size: 1.5rem;
+    left: .8rem;
+    text-transform: capitalize;
+    pointer-events: none;
+}
+.type-of-leave{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+.leave-reason1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.leave-reason1 div{
+    border: 1px solid rgb(107, 107, 107);
+    width: 150px;
+    text-align: center;
+    border-radius: .4rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    transition: .3s;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+
+
+
+.calculate-boxs{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 2.49rem;
+    justify-content: center;
+}
+.c-boxes{
+    width: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.c-boxes span{
+    font-size: 1.2rem;
+    margin-bottom: .4rem;
+}
+.c-boxes input{
+    width: 100px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: .4rem;
+    border-radius: .4rem;
+    outline: none;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 8px;
+}
+h4.header-sub-title{
+    margin-bottom: 2rem;
+}
+.cliki{
+    background-color: rgb(49, 49, 49);
+    border: none;
+    color: white;
+}
+
+.responsive{
+    font-size: 1.2rem;
+}
+.responsivle{
+    margin-top: 2rem;
+}
+.colorblue{
+    color: red;
+}
+
+.flexin{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    gap: .5rem;
+
+}
+.cd-boxes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    justify-content: space-between;
+    gap: .5rem;
+    padding: 0rem 1rem;
+}
+.holydays-calculate{
+    width: 50%;
+    font-size: 1.5rem;
+}
+.calculate-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+.date-count{
+    padding: .4rem;
+    font-size: 1.2rem;
+    width: 230px;
+    outline: none;
+
+}
+.comment{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+
+}
+.reson-for-leave{
+    font-size: 1.5rem;
+    margin: auto;
+
+}
+
+@media print {
+    .no-print {
+      display: none;
+    }
+    .reson1{
+        display: none !important;
+    }
+    .cliki{
+        display: block !important;
+    }
+  }
+
+
