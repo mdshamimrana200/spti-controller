@@ -298,3 +298,8 @@ h4.header-sub-title{
 
 
 
+@media screen and (min-width:420) {
+    .resistration-form {
+        transform: scale(.5);
+    }
+}
