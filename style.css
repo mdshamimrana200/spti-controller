@@ -11,6 +11,14 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+h2.header-title.title {
+    font-size: 2rem;
+}
+
+h4.header-sub-title.title {
+    font-size: 1.5rem;
+}
 .resistration-form{
     max-width: 768px;
     margin: auto;
@@ -33,7 +41,7 @@ body{
     text-align: center;
     font-size: 1.5rem;
     border-bottom: 1px solid black;
-    width: 300px;
+    width: 250px;
     display: flex;
     justify-self: center;
     justify-content: center;
@@ -163,6 +171,7 @@ select{
 .title{
     text-align: center;
     margin-bottom: 8px;
+    color: rgb(117, 117, 117) !important;
 }
 h4.header-sub-title{
     margin-bottom: 2rem;
@@ -226,12 +235,53 @@ h4.header-sub-title{
     margin: auto;
     display: flex;
     padding: 20px;
+    border-radius: .4rem;
+    border: 1px solid rgb(74, 74, 74);
 
 }
 .reson-for-leave{
     font-size: 1.5rem;
     margin: auto;
 
+}
+
+.signaturs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+.signaturs-contect{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.signaturs-contect1{
+    width: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.ipnut-ittle{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.inputt{
+    border-radius: .4rem;
+    width: 80%;
+    font-size: 1.5rem;
+    padding: 1rem;
+    outline: none;
+}
+.inputtr{
+    border-radius: .4rem;
+    font-size: 1rem;
+    padding: 1rem;
+    outline: none;
 }
 
 @media print {
@@ -245,5 +295,6 @@ h4.header-sub-title{
         display: block !important;
     }
   }
+
 
 

@@ -102,3 +102,23 @@ endDate.addEventListener('input',()=>{
 
 
 
+
+
+
+
+
+// chatgpt
+
+// function uploadImage() {
+//     const preview = document.getElementById('preview');
+//     const file = document.getElementById('imageInput').files[0];
+//     const reader = new FileReader();
+//     reader.onloadend = function() {
+//       preview.src = reader.result;
+//     }
+//     if (file) {
+//       reader.readAsDataURL(file);
+//     } else {
+//       preview.src = "";
+//     }
+//   }
